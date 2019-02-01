@@ -1,0 +1,15 @@
+{
+
+    "name": "Street Light API",
+
+    "description": "Self-hosted app",
+
+    "repository": "https://github.com/jnakshansh/Streetlight-API.git",
+
+    "scripts": {
+
+    "postdeploy": "python manage.py makemigrations && python manage.py migrate"
+
+  }
+
+}

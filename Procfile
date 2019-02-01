@@ -1,1 +1,1 @@
-web: gunicorn street_light_api.wsgi
+web: gunicorn street_light_api.wsgi --log-file -
