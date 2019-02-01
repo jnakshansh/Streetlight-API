@@ -29,7 +29,7 @@ PyPDF2==1.26.0
 pytest==3.0.6
 python-dateutil==2.6.0
 pytz==2018.5
-pywin32==220
+
 requests==2.12.5
 robobrowser==0.5.3
 simplejson==3.10.0
