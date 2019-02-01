@@ -10,11 +10,11 @@ https://docs.djangoproject.com/en/2.1/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
-from whitenoise.django import DjangoWhiteNoise
+# from whitenoise.django import DjangoWhiteNoise
 
-application = DjangoWhiteNoise(application)
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# application = DjangoWhiteNoise(application)
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'street_light_api.settings')
 
-# application = get_wsgi_application()
+application = get_wsgi_application()

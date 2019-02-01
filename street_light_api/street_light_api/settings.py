@@ -14,7 +14,6 @@ import os
 import dj_database_url
 import socket
 # import django_heroku
-import dj_database_url
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -37,7 +36,7 @@ s.connect(("8.8.8.8", 80))
 local_ip = s.getsockname()[0]
 ###
 
-ALLOWED_HOSTS = ['localhost', local_ip,'.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', local_ip,'streetlightapi.herokuapp.com']
 
 # Application definition
 
