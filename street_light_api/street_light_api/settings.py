@@ -35,7 +35,7 @@ s.connect(("8.8.8.8", 80))
 local_ip = s.getsockname()[0]
 ###
 
-ALLOWED_HOSTS = ['localhost', local_ip,'.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', local_ip,'.herokuapp.com','127.0.0.1']
 
 # Application definition
 
