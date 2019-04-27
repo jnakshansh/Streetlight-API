@@ -9,6 +9,7 @@ def index(request):
 def add_to_database(request, power_usage):
     power_con = power.objects.create(power_consumption=power_usage)
     power_con.save()
+    #sdjbgsdg
     data={'Power Consumption':power_usage}
     return JsonResponse(data)
 
